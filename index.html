@@ -40,13 +40,13 @@
             <!-- Add form element -->
             <form>
                 <label for="name">Enter full name:</label>
-                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
 
                 <label for="email">Enter email address:</label>
-                <input type="email" placeholder="Email Address" name="email" id="email" />
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
 
                 <label for="phone">Enter a telephone number:</label>
-                <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
                 <p>
                     Have you worked out with a trainer before?
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -106,8 +106,38 @@
         </section>
 
         <!-- "meet the trainers" section -->
-        <section>
-            <h2>Meet the Trainers</h2>
+        <section id="your-trainers" class="trainers">
+            <h2 class="section-title primary-border">Meet the Trainers</h2>
+            <article class="trainer">
+                <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                <div class="trainer-bio text-left">
+                    <h3>Arron Stephens</h3>
+                    <h4>Speed / Strength</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus commodi, dignissimos, voluptas quisquam eum ipsum doloribus quas officia fuga magnam perspiciatis iure molestias dolorem in mollitia laboriosam tempora, itaque quasi?
+                    </p>
+                </div>
+            </article>
+            
+            <!-- second trainer bio -->
+            <article class="trainer">
+                <div class="trainer-bio text-right">
+                    <h3>Joanna Gill</h3>
+                    <h4>Endurance</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aspernatur consequuntur facilis incidunt rem veniam harum illum dolor iusto vel, ducimus asperiores architecto praesentium voluptatem similique. Deserunt obcaecati reiciendis facilis?</p>
+                </div>
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+            </article>
+
+            <!-- third trainer bio -->
+            <article class="trainer">
+                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+                <div class="trainer-bio text-left">
+                    <h3>Harry "the Headband" Smith</h3>
+                    <h4>Strength</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cumque veritatis natus quaerat! Quaerat, pariatur illo! Minus commodi, ipsa doloribus asperiores consequuntur laudantium esse maxime dolores sequi ipsam, consequatur soluta?</p>
+                </div>
+            </article>
         </section>
 
         <!-- "reach out" section -->

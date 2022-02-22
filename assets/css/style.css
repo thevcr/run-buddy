@@ -33,7 +33,7 @@ header nav {
     margin: 7px 0;
 }
 
-header ul li {
+header nav ul li {
     display: inline;
 }
 
@@ -80,7 +80,6 @@ section {
 }
 /* Hero Style End */
 
-/* Div Style Start */
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -91,7 +90,36 @@ section {
     bottom: 120px;
     right: 140px;
 }
-/* Div Style End */
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+  
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+.hero-form label {
+    margin: 0 5px;
+}
+  
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
 
 .intro {
     text-align: center;
@@ -108,23 +136,6 @@ section {
 .steps {
     text-align: center;
     background: #fce138;
-}
-
-  .section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-  
-  .primary-border {
-    border-color: #fce138;
-}
-  
-  .secondary-border {
-    border-color: #39a6b2;
 }
 
 .steps div {
@@ -149,4 +160,67 @@ section {
 
 .steps span {
     font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+  
+.primary-border {
+    border-color: #fce138;
+}
+  
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.trainers {
+    text-align: center;
+}
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+  
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+  
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
 }
