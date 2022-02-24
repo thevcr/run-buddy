@@ -12,3 +12,5 @@ https://thevcr.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Veronica
+
+### ©️2019 Run Buddy, Inc 
