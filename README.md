@@ -10,7 +10,7 @@ A website that offers fitness training services.
 ## Website
 https://thevcr.github.io/run-buddy/
 
-## Contribution
-Made with ❤️ by Veronica and Sam and Donna
+## Retribution
+Getting back at git for autoresolving
 
 ### ©️2022 Run Buddy, Inc 
