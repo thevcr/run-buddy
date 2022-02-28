@@ -1,4 +1,4 @@
-# Run Buddy, Inc
+# Run Buddy
 
 ## Purpose
 A website that offers fitness training services.
@@ -10,7 +10,5 @@ A website that offers fitness training services.
 ## Website
 https://thevcr.github.io/run-buddy/
 
-## Retribution
-Getting back at git for autoresolving
-
-### ©️2022 Run Buddy, Inc 
+## Contribution
+Made with ❤️ by Veronica
